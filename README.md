@@ -13,19 +13,18 @@
 ------
 **懸賞広場のプログラム**
 seleniumとwebbrowserをpipなどでダウンロードしてください。
-`　`22行目
+22行目
 
-        self.driver = webdriver.Chrome(executable_path = (r'C:\Users\jubea\Downloads\chromedriver_win32\chromedriver.exe')) #chromeで開く
-`　`ここは、chromedriverをダウンロードして、chromedriverまでのpathを入力してください。
+        self.driver = webdriver.Chrome(executable_path = (r'C:\Users\ ... \chromedriver.exe')) #chromeで開く
+   ここは、chromedriverをダウンロードして、chromedriverまでのpathを入力してください。
 
 
-`　`222行目
+222行目
 
         number = int(input('アカウント番号を入力してください。（１つしかない場合は０を入力\n'))
 
         ここに自分のアカウントを設定（複数可能） --------------------------------------------
         ID_password = (('アカウントID', 'アカウントパスワード'), ('アカウント２ID', 'アカウント２パスワード'))
-`　`
 
 
 を自分のものに変更し、プログラムを起動したときに「「アカウント番号を～」と聞かれるので、「０」を入力してください。
@@ -38,4 +37,4 @@ AIや機械学習、深層学習、スクレイピング、自動化などに興
 
 関連情報
 ______________________________
-[Qiita]<https://qiita.com/jubeat0819ryu "投稿いまだになし">
+[Qiita]<https://qiita.com/jubeat0819ryu>

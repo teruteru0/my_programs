@@ -7,22 +7,19 @@
 6/12　簡易計算機    
 6/13 はさみ将棋(写経)     
 
-### 作成したプログラムは随時追加していきます。~~(たぶん)~~
+#### 作成したプログラムは随時追加していきます。~~(たぶん)~~
 
 使い方
 ------
 **懸賞広場のプログラム**
 seleniumとwebbrowserをpipなどでダウンロードしてください。
-`　`　
-22行目
+`　`22行目
 
         self.driver = webdriver.Chrome(executable_path = (r'C:\Users\jubea\Downloads\chromedriver_win32\chromedriver.exe')) #chromeで開く
-`　`　
-ここは、chromedriverをダウンロードして、chromedriverまでのpathを入力してください。
+`　`ここは、chromedriverをダウンロードして、chromedriverまでのpathを入力してください。
 
 
-`　`
-222行目
+`　`222行目
 
         number = int(input('アカウント番号を入力してください。（１つしかない場合は０を入力\n'))
 

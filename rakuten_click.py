@@ -175,7 +175,7 @@ class kennsyouhiroba:
 
                 else:
                     page_next.click()
-            print('\n-----------------------------------------\n)
+            print('\n-----------------------------------------\n')
             print('pageを取得' + str(self.page_num + 1)  + 'ページ目')
         else:
             pass
